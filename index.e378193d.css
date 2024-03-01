@@ -1,0 +1,124 @@
+html {
+  font-family: Roboto, sans-serif;
+}
+
+body {
+  color: #060b35;
+  margin: 0;
+}
+
+.card {
+  box-sizing: border-box;
+  background: #fff;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  width: 200px;
+  padding: 32px 16px 16px;
+}
+
+.card__image {
+  width: 160px;
+  height: 134px;
+  margin: 0 3px 40px;
+  display: block;
+}
+
+.card__title {
+  color: #060b35;
+  margin: 0 0 4px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.card__code {
+  color: #616070;
+  margin: 0 0 16px;
+  font-size: 10px;
+  line-height: 14px;
+}
+
+.card__review {
+  justify-content: space-between;
+  align-items: center;
+  height: 16px;
+  margin: 0 0 24px;
+  display: flex;
+}
+
+.card .stars {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.card .stars__star {
+  background-image: url("star.fa806e3c.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+}
+
+.card .stars__star:nth-of-type(-n+4) {
+  background-image: url("star-active.2be54011.svg");
+}
+
+.card__review-right {
+  color: #060b35;
+  text-align: right;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 10px;
+  line-height: 14px;
+  display: flex;
+}
+
+.card__price {
+  justify-content: space-between;
+  align-items: center;
+  height: 18px;
+  margin: 0 0 16px;
+  display: flex;
+}
+
+.card-title {
+  color: #616070;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.card-number {
+  color: #060b35;
+  text-align: right;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.card__button {
+  box-sizing: border-box;
+  color: #fff;
+  background-color: #00acdc;
+  border: 1px hidden #00acdc;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  text-decoration: none;
+  display: flex;
+}
+
+.card__button:hover {
+  color: #00acdc;
+  background-color: #fff;
+  border: 1px solid #00acdc;
+  border-radius: 5px;
+}
+
+/*# sourceMappingURL=index.e378193d.css.map */
